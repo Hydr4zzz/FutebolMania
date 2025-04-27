@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futebol Mania</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      margin-bottom: 30px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .news, .live-matches, .standings, .top-scorers {
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .standings table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .standings th, .standings td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    .standings th {
+      background-color: #4caf50;
+      color: white;
+    }
+    .top-scorers ul {
+      list-style: none;
+      padding: 0;
+    }
+    .top-scorers li {
+      background: white;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Futebol Mania</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="flamengo.html">Flamengo</a> |
+    <a href="palmeiras.html">Palmeiras</a> |
+    <a href="saopaulo.html">São Paulo</a>
+  </nav>
+
+  <h2>Últimas Notícias</h2>
+  <div class="news">
+    <p>Última notícia sobre futebol!</p>
+  </div>
+
+  <div class="live-matches">
+    <h2>Partidas ao Vivo</h2>
+    <p>Flamengo vs Palmeiras (ao vivo)</p>
+  </div>
+
+  <div class="standings">
+    <h2>Tabela de Classificação</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Posição</th>
+          <th>Time</th>
+          <th>Pontos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1º</td>
+          <td><a href="flamengo.html">Flamengo</a></td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>2º</td>
+          <td><a href="palmeiras.html">Palmeiras</a></td>
+          <td>42</td>
+        </tr>
+        <tr>
+          <td>3º</td>
+          <td><a href="saopaulo.html">São Paulo</a></td>
+          <td>39</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="top-scorers">
+    <h2>Artilheiros</h2>
+    <ul>
+      <li>Pedro (Flamengo) - 18 gols</li>
+      <li>Endrick (Palmeiras) - 16 gols</li>
+      <li>Calleri (São Paulo) - 15 gols</li>
+    </ul>
+  </div>
+</body>
+</html>
